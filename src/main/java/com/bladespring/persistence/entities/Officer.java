@@ -35,6 +35,10 @@ public class Officer {
         return lastName;
     }
 
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
     public void setRank(Rank rank) {
         this.rank = rank;
     }
